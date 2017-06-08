@@ -10,6 +10,7 @@
 
 .footer .container p {
 	padding-top:2%;
+    margin-top
 }
 
 #selfie {
@@ -26,11 +27,16 @@
 }
 
 
+
+
 @media screen and (max-width:768px) {
     .panel {
-        margin-top:10%;
+        margin-top:5%;
     }
-
+    
+    .footer {
+        margin-top:20%;
+    }
     .panel-body img {
         width:12%;
         padding-right:1%;
@@ -47,21 +53,22 @@
 
     .panel {
         margin-top:10%;
-    }
-
-    .row {
         max-width:75%;
     }
 
-    .form-group {
+
+    form {
         max-width:75%;
     }
 }
 
 @media screen and (min-width:993px) {
-    .form-group , .contact{
+    form {
         max-width:75%;
     }
-
+    
+    .panel-body img {
+        width:20%;
+    }
 
 }
